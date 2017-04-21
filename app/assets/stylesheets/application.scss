@@ -1,1 +1,42 @@
+$brand-primary: #72877B;
+
+$font-family-sans-serif: 'Open Sans', sans-serif;
+// $font-family-serif:      Georgia, "Times New Roman", Times, serif;
+// $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+// $font-family-base:       $font-family-sans-serif;
+
+// Changing dark grays to brown
+$gray-dark: #3C3C3B;
+$gray: #706F6F;
+
+// Still gray
+$gray-light:                #636c72;
+$gray-lighter:              #eceeef;
+$gray-lightest:             #f7f7f9;
+
+$navbar-light-color: $brand-primary;
+$navbar-light-toggler-border: $brand-primary;
+
+$dropdown-link-hover-color: $gray;
+$dropdown-bg: $gray-lightest;
+
+body {
+  padding-top: 2rem;
+}
+
 @import "bootstrap";
+
+.logo {
+  width: 90%;
+  max-width: 300px;
+}
+
+.navbar {
+  background-color: $gray-lighter;
+}
+
+.social_media_images {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+}
