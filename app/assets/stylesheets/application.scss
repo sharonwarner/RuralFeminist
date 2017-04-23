@@ -5,12 +5,12 @@ $font-family-sans-serif: 'Open Sans', sans-serif;
 // $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 // $font-family-base:       $font-family-sans-serif;
 
-// Changing dark grays to brown
-$gray-dark: #3C3C3B;
-$gray: #706F6F;
+// Changing dark grays to brown/navy
+$gray-dark: #3D455E;
+$gray: #3C3C3B;
+$gray-light: #706F6F;
 
 // Still gray
-$gray-light:                #636c72;
 $gray-lighter:              #eceeef;
 $gray-lightest:             #f7f7f9;
 
@@ -19,6 +19,8 @@ $navbar-light-toggler-border: $brand-primary;
 
 $dropdown-link-hover-color: $gray;
 $dropdown-bg: $gray-lightest;
+
+$body-bg: $gray-lighter;
 
 body {
   padding-top: 2rem;
@@ -31,6 +33,18 @@ body {
   max-width: 300px;
 }
 
+hr {
+  border-top: 1px solid $gray-dark;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.opening-container {
+  padding-bottom: 5ex;
+}
+
 .navbar {
   background-color: $gray-lighter;
 }
@@ -39,4 +53,64 @@ body {
   width: 30px;
   height: 30px;
   padding: 2px;
+}
+
+.footer {
+  background-color: $gray-dark;
+  padding-top: 10ex;
+  padding-bottom: 10ex;
+}
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 300px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  //font-size: 48px;
+  line-height: 300px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  //text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("/rural_landscape.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("/rural_landscape2.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("/rural_landscape3.jpg");
 }

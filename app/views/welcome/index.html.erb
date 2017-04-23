@@ -5,43 +5,171 @@
 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Core Values</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="#">All</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Free Public College</a>
-          <a class="dropdown-item" href="#">Single Payer Healthcare</a>
-          <a class="dropdown-item" href="#">Public Assistance</a>
-          <a class="dropdown-item" href="#">Free Public Daycare</a>
-          <a class="dropdown-item" href="#">Paid Family Leave</a>
-          <a class="dropdown-item" href="#">Universal Basic Income</a>
-        </div>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Mission Statement<span class="sr-only">(current)</span></a>
-      </li>
       <li class="nav-item">
         <a class="nav-link" href="#">About Us</a>
       </li>
-
+      <li class="nav-item">
+        <a class="nav-link" href="#">Core Values</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Get Involved</a>
+      </li>
     </ul>
   </div>
   <ul class="nav float-right">
     <li class="nav-item">
-      <%= image_tag "/facebook.png", :class => 'social_media_images' %>
+      <%= link_to (image_tag "/facebook.png", :class => 'social_media_images'), 'https://www.facebook.com/ruralfeminist/', target: :_blank %>
     </li>
     <li class="nav-item">
-      <%= image_tag "/twitter.png", :class => 'social_media_images' %>
+      <%= link_to (image_tag "/twitter.png", :class => 'social_media_images'), 'https://twitter.com/rural_feminist_', target: :_blank %>
     </li>
     <li class="nav-item">
-      <%= image_tag "/instagram.png", :class => 'social_media_images' %>
+      <%= link_to (image_tag "/instagram.png", :class => 'social_media_images'), 'https://www.instagram.com/ruralfeminist/', target: :_blank %>
     </li>
   </ul>
 </nav>
 
-<div class="jumbotron">
-  <div class="container text-center">
+<div class="jumbotron text-center opening-container">
+  <div class="container opening-container">
     <%= image_tag "/logo.png", :class => 'img-fluid logo' %>
+    <hr>
+    <h5>Bridging the gap between rural women and feminism.</h5>
   </div>
 </div>
+
+<section class="module parallax parallax-1">
+  <div class="container">
+    <h1>About Us</h1>
+  </div>
+</section>
+
+<section class="module content">
+  <div class="container">
+    <p>The current status quo has left many rural women with little social mobility, an economy that is moving the good paying jobs to cities, and for some, severe poverty.</p>
+    <p>Many intersectional feminists have focused on issues surrounding economic justice for years now -- but mainly in urban areas. There has been little outreach to women in rural areas. Ultimately, the electoral success of feminist issues depends on gaining the support of rural women. Similarly, rural women must join forces with the intersectional feminist movement to overcome their current economic challenges.</p>
+    <p>We are a group of rural women who are choosing to find common ground between ourselves and the feminist movement. We will organize and fight for our core values. We will not resort to the divisive, offensive, sexist, racist, homophobic, or classist rhetoric that is prevalent in today’s political climate.</p>
+    <p>Neither of the two major political parties have specifically addressed the issues that affect rural women. Rather than engaging with our issues, they choose to continue pushing policies that benefit their corporate donors. As such, we are purposefully not affiliated with either of them, but we will support politicians with a demonstrable record of fighting for our core values.</p>
+    <p>For further reading, please see the following websites and articles.</p>
+  </div>
+</section>
+
+<section class="module parallax parallax-2">
+  <div class="container">
+    <h1>Core Values</h1>
+  </div>
+</section>
+
+<section class="module content">
+  <div class="container">
+    <p>Throughout the past several months, the leaders at Rural Feminist have interviewed dozens of rural women about the political issues that most affect their day to day life. We heard <b>inspiring</b> stories about women fighting to give their <b>daughters</b> more chances than they had. We heard from women who are disillusioned with today’s <b>toxic political environment</b>. We heard from women who have been <b>left behind</b> by the bad economy in rural areas. We heard ideas for how the government can better <b>help</b> rural women. We compiled and edited the answers into these <b>six core values</b>.</p>
+    <p>Our core values are a living document. We will continue to interview rural women to hear more about our lived experiences. If you would like to be interviewed, please email interviews@ruralfeminist.com.</p>
+    <p>Input and edits on our existing core values are always welcome and encouraged. Please email corevalues@ruralfeminist.com.</p>
+    <div id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="card">
+        <div class="card-header" role="tab" id="headingOne">
+          <h6 class="mb-0">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Believing that women from all backgrounds deserve the class mobility that education provides, we support free public college.
+            </a>
+          </h6>
+        </div>
+
+        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+          <div class="card-block">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo">
+          <h6 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Believing that sick women and women with sick family members deserve access to quality treatment and medicines, we support single payer healthcare.
+            </a>
+          </h6>
+        </div>
+        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="card-block">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingThree">
+          <h6 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Believing that women, no matter their circumstances, deserve the ability to survive with their families, we support public housing and food stamps.
+            </a>
+          </h6>
+        </div>
+        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="card-block">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingFour">
+          <h6 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Believing that mothers deserve the ability to enter the workforce, we support free public daycare.
+            </a>
+          </h6>
+        </div>
+        <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+          <div class="card-block">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingFive">
+          <h6 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Believing that mothers deserve access to adequate resources, both monetary and temporal, to care for their children, we support paid family leave for new parents.
+            </a>
+          </h6>
+        </div>
+        <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
+          <div class="card-block">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingSix">
+          <h6 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Believing that stay-at-home mothers and women who perform unpaid labor deserve to be compensated for their work, we support a universal basic income.
+            </a>
+          </h6>
+        </div>
+        <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
+          <div class="card-block">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="module parallax parallax-3">
+  <div class="container">
+    <h1>Get Involved</h1>
+  </div>
+</section>
+
+<section class="module content">
+  <div class="container">
+    <h2>Lorem Ipsum Dolor</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container text-center">
+    <span class="text-muted">Rural Feminist - Established 2017</span>
+  </div>
+</footer>
+
