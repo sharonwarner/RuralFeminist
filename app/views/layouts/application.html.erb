@@ -4,13 +4,17 @@
     <title>Rural Feminist</title>
     <%= csrf_meta_tags %>
 
+    <meta name="author" content="Sharon Warner">
+    <meta name="viewport" content="initial-scale=1.0,width=device-width">
+    <meta name="Description" content="Bridging the gap between rural women and feminism.">
+
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#navbarsExampleDefault">
     <%= yield %>
   </body>
 </html>
