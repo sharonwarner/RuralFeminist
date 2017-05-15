@@ -35,8 +35,10 @@
 
 <div id="home" class="jumbotron text-center opening-container">
   <div class="container opening-container">
+    <p></p>
+    <p></p>
     <%= image_tag "/logo.png", :class => 'img-fluid logo' %>
-    <hr>
+    <hr class="logo-hr">
     <h5>Bridging the gap between rural women and feminism.</h5>
   </div>
 </div>
@@ -44,7 +46,7 @@
 <div id="aboutus"></div>
 <section class="module parallax parallax-1">
   <div class="container">
-    <h1>About Us</h1>
+    <h2>About Us</h2>
   </div>
 </section>
 
@@ -54,20 +56,24 @@
     <p>Over the past several years, the term “feminist” has become just another way of saying “urban, upper-class woman” -- women such as Ivanka Trump, Sheryl Sandberg, and Lena Dunham all consider themselves feminists while doing little to understand or help with the struggles of women from different backgrounds. Such a narrow definition of feminism fails to encapsulate the varying ways in which women struggle because of sexism.</p>
     <div class="core-value-image"><%= image_tag "/branch.png", :class => 'img-fluid' %></div>
     <p></p>
-    <p>Intersectional feminists have recognized these shortcomings and are redefining the movement. This new intersectional feminist movement is focused on the struggles of poor women, women of color, women with disabilities or illnesses, and other women left out of previous feminist movements. It is time for rural women to take our place in this movement.</p>
+    <p>Intersectional feminists have recognized these shortcomings and are redefining the movement. This new intersectional feminist movement is focused on the struggles of poor women, women of color, women with disabilities or illnesses, religious women, and other women left out of previous feminist movements. It is time for rural women to take our place in this movement.</p>
+    <p></p>
+    <p>Our Rural Feminist Movement stands behind a set of beliefs that will empower women. We believe women should have affordable healthcare, affordable public education, and quality resources to care for themselves and their families. If you agree with these beliefs, we welcome you into this movement.</p>
     <p></p>
     <h4>We are a group of rural women and intersectional feminists choosing to work together to organize and fight for our shared core values.</h4>
     <p></p>
     <p>Neither of the two major political parties have specifically addressed the core political values of rural women as articulated below. Rather, they choose to continue pushing policies that benefit their corporate donors. Thus, we are purposefully not affiliated with either party, but we will support politicians with a demonstrable record of fighting for our core values. We will not resort to the sexist, racist, homophobic, transphobic, or classist rhetoric that is prevalent in today’s political climate.</p>
     <p></p>
+    <hr class="about-us-hr">
+    <p></p>
     <h4>Leadership Team</h4>
     <p></p>
     <div class="row">
       <div class="col-md-3">
-        <div class="about-us-image"><%= image_tag "/placeholder.png", :class => 'img-fluid' %></div>
+        <div class="about-us-image"><%= image_tag "/jennifer.jpg", :class => 'img-fluid' %></div>
       </div>
       <div class="col-md-9">
-        <p>Jennifer Parsons</p>
+        <p>Jennifer Parsons grew up in Gap, Pennsylvania where she graduated from Pequea Valley High School in 2008. She also attended Stevens-Henager College from 2011-2013 where she studied business administration. She is a stay-at-home mom of 2 beautiful, young girls. She enjoys helping people whenever possible. She is very close with her family and friends, and they are very important to her. She can be contacted by email at jennifer@ruralfeminist.com.</p>
         <p></p>
       </div>
     </div>
@@ -76,7 +82,7 @@
         <div class="about-us-image"><%= image_tag "/sharon.jpg", :class => 'img-fluid' %></div>
       </div>
       <div class="col-md-9 pull-md-3">
-        <p>Sharon Warner grew up in Gap, Pennsylvania, a small town in rural Lancaster County. She graduated from Haverford College in 2012 and is now a software developer at Nava PBC where she is working on a project at the Board of Veterans Appeals that will help veterans get their benefits more quickly. Though currently living in Washington DC, she frequently goes back to Lancaster to eat at Shady Maple, visit family and friends, and run at Gap Park. She can be contacted on Twitter <%= link_to '@sharonawarner', 'https://twitter.com/sharonawarner', target: :_blank %> or by email, sharon@ruralfeminist.com.</p>
+        <p>Sharon Warner grew up in Gap, Pennsylvania, a small town in rural Lancaster County. She graduated from Haverford College in 2012 and is now a software developer at Nava PBC where she is working on a project at the Board of Veterans Appeals that will help veterans get their benefits more quickly. Though currently living in Washington DC, she frequently goes back to Lancaster to eat at Shady Maple, visit family and friends, and run at Gap Park. She can be contacted on Twitter <%= link_to '@sharonawarner', 'https://twitter.com/sharonawarner', target: :_blank %> or by email at sharon@ruralfeminist.com.</p>
         <p></p>
       </div>
     </div>
@@ -95,7 +101,7 @@
 <div id="corevalues"></div>
 <section class="module parallax parallax-2">
   <div class="container">
-    <h1>Core Values</h1>
+    <h2>Core Values</h2>
   </div>
 </section>
 
@@ -132,7 +138,7 @@
         </div>
         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
           <div class="card-block">
-            <p>The Affordable Care Act, or Obamacare, reduced the percentage of Americans without health insurance from <%= link_to '18.2% in 2010 to 10.3% in 2016', 'https://www.cdc.gov/nchs/data/nhis/earlyrelease/insur201702.pdf', target: :_blank %>. However, there are still <%= link_to '20.4 million', 'https://www.cdc.gov/nchs/data/nhis/earlyrelease/insur201702.pdf', target: :_blank %> Americans without health insurance. Additionally, even among those with health insurance, <%= link_to '20% report', 'http://kff.org/health-costs/press-release/new-kaisernew-york-times-survey-finds-one-in-five-working-age-americans-with-health-insurance-report-problems-paying-medical-bills/', target: :_blank %> struggling to pay their medical bills. Families dealing with health crises should not have to worry about medical bills. Single payer healthcare, or Medicare For All, is a government funded healthcare system that provides citizens with affordable, quality medical treatments and medicines.</p>
+            <p>The Affordable Care Act reduced the percentage of Americans without health insurance from <%= link_to '18.2% in 2010 to 10.3% in 2016', 'https://www.cdc.gov/nchs/data/nhis/earlyrelease/insur201702.pdf', target: :_blank %>. However, there are still <%= link_to '20.4 million', 'https://www.cdc.gov/nchs/data/nhis/earlyrelease/insur201702.pdf', target: :_blank %> Americans without health insurance. Additionally, even among those with health insurance, <%= link_to '20% report', 'http://kff.org/health-costs/press-release/new-kaisernew-york-times-survey-finds-one-in-five-working-age-americans-with-health-insurance-report-problems-paying-medical-bills/', target: :_blank %> struggling to pay their medical bills. Families dealing with health crises should not have to worry about medical bills. Single payer healthcare, or Medicare For All, is a government funded healthcare system that provides citizens with affordable, quality medical treatments and medicines.</p>
             <p>The <%= link_to 'Expanded & Improved Medicare for All Act', 'https://www.congress.gov/bill/115th-congress/house-bill/676', target: :_blank %> was introduced in the House January 24th, 2017.</p>
             <p><%= link_to 'Further', 'https://www.healthcare-now.org/', target: :_blank %> <%= link_to 'reading', 'http://www.pnhp.org/', target: :_blank %></p>
           </div>
@@ -214,7 +220,7 @@
 <div id="getinvolved"></div>
 <section class="module parallax parallax-3">
   <div class="container">
-    <h1>Get Involved</h1>
+    <h2>Get Involved</h2>
   </div>
 </section>
 
@@ -225,22 +231,29 @@
     <ul class="list-group">
       <li class="list-group-item">
         Join our mailing list. We send a monthly newsletter containing information about ongoing legislation or events regarding our core values.
-        <p></p>
-        <div class="mx-auto">
+        <div class="container mx-auto">
           <form
+            class="form-margin-top"
             action="https://tinyletter.com/ruralfeminist"
             method="post" target="popupwindow"
             onsubmit="window.open('https://tinyletter.com/ruralfeminist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-            class="form-inline"
           >
-            <label class="sr-only" for="tlemail">Email</label>
-            <input type="email" class="form-control input-lg mb-2 mr-sm-2 mb-sm-0" name="email" id="tlemail" placeholder="Enter email" />
-            <input type="hidden" value="1" name="embed"/>
-            <input type="submit" class="btn btn-primary mx-auto" value="Submit" />
+            <div class="form-group row">
+              <label class="sr-only" for="tlemail">Email</label>
+              <div class="offset-md-1 col-md-6">
+                <input type="text" placeholder="Email" class="form-control mb-2 mr-sm-2 mb-sm-0" name="email" id="tlemail" />
+                <input type="hidden" value="1" name="embed"/>
+              </div>
+              <div class="col-md-3">
+                <input type="submit" class="btn btn-primary btn-block" value="Subscribe" />
+              </div>
+            </div>
           </form>
         </div>
       </li>
-      <li class="list-group-item">Share our posts on social media.</li>
+      <li class="list-group-item">
+        Follow us on social media (<%= link_to 'Facebook', 'https://www.facebook.com/ruralfeminist/', target: :_blank %>,&nbsp;<%= link_to 'Twitter', 'https://twitter.com/ruralfem', target: :_blank %>,&nbsp;<%= link_to 'Instagram', 'https://www.instagram.com/ruralfeminist/', target: :_blank %>) and share our posts.
+      </li>
       <li class="list-group-item">Call your representatives and express your support of our core values. Find their phone numbers&nbsp;<%= link_to 'here', 'http://whoismyrepresentative.com/', target: :_blank %>.</li>
       <li class="list-group-item">Go to a town hall and express your support of our core values. Find a town hall&nbsp;<%= link_to 'here', 'https://townhallproject.com', target: :_blank %>.</li>
       <li class="list-group-item">

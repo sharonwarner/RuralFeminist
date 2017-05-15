@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'google-analytics-rails', '1.1.0'
+
 gem 'listen', '~> 3.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
