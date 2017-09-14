@@ -26,9 +26,6 @@
     <li class="nav-item">
       <%= link_to (image_tag "/twitter.png", :class => 'social_media_images'), 'https://twitter.com/ruralfem', target: :_blank %>
     </li>
-    <li class="nav-item">
-      <%= link_to (image_tag "/instagram.png", :class => 'social_media_images'), 'https://www.instagram.com/ruralfeminist/', target: :_blank %>
-    </li>
   </ul>
   <p></p>
 </nav>
@@ -230,29 +227,7 @@
     <p></p>
     <ul class="list-group">
       <li class="list-group-item">
-        Join our mailing list. We send a monthly newsletter containing information about ongoing legislation or events regarding our core values.
-        <div class="container mx-auto">
-          <form
-            class="form-margin-top"
-            action="https://tinyletter.com/ruralfeminist"
-            method="post" target="popupwindow"
-            onsubmit="window.open('https://tinyletter.com/ruralfeminist', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-          >
-            <div class="form-group row">
-              <label class="sr-only" for="tlemail">Email</label>
-              <div class="offset-md-1 col-md-6">
-                <input type="text" placeholder="Email" class="form-control mb-2 mr-sm-2 mb-sm-0" name="email" id="tlemail" />
-                <input type="hidden" value="1" name="embed"/>
-              </div>
-              <div class="col-md-3">
-                <input type="submit" class="btn btn-primary btn-block" value="Subscribe" />
-              </div>
-            </div>
-          </form>
-        </div>
-      </li>
-      <li class="list-group-item">
-        Follow us on social media (<%= link_to 'Facebook', 'https://www.facebook.com/ruralfeminist/', target: :_blank %>,&nbsp;<%= link_to 'Twitter', 'https://twitter.com/ruralfem', target: :_blank %>,&nbsp;<%= link_to 'Instagram', 'https://www.instagram.com/ruralfeminist/', target: :_blank %>) and share our posts.
+        Follow us on social media (<%= link_to 'Facebook', 'https://www.facebook.com/ruralfeminist/', target: :_blank %>,&nbsp;<%= link_to 'Twitter', 'https://twitter.com/ruralfem', target: :_blank %>) and share our posts.
       </li>
       <li class="list-group-item">Call your representatives and express your support of our core values. Find their phone numbers&nbsp;<%= link_to 'here', 'http://whoismyrepresentative.com/', target: :_blank %>.</li>
       <li class="list-group-item">Go to a town hall and express your support of our core values. Find a town hall&nbsp;<%= link_to 'here', 'https://townhallproject.com', target: :_blank %>.</li>
